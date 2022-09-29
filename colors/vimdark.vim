@@ -31,11 +31,11 @@ let g:colors_name = 'vimdark'
 " cyan:           #4DC5C6
 
 set background=dark
-hi Normal       ctermbg=234  ctermfg=246 cterm=NONE         guibg=#000000  guifg=#949494 
-hi NormalFloat  ctermbg=234  ctermfg=246 cterm=NONE         guibg=#000000  guifg=#949494 
-hi Nontext      ctermbg=234  ctermfg=246 cterm=NONE         guibg=#000000  guifg=#949494 
-hi Question     ctermbg=234  ctermfg=246 cterm=Bold         guibg=#1c1c1c  guifg=#949494 gui=Bold
-hi MoreMsg      ctermbg=234  ctermfg=246 cterm=Bold         guibg=#1c1c1c  guifg=#949494 gui=Bold
+hi Normal       ctermbg=234  ctermfg=246 cterm=NONE         guibg=#000000  guifg=#e4e4e4
+hi Nontext      ctermbg=234  ctermfg=246 cterm=NONE         guibg=#000000  guifg=#e4e4e4
+hi Question     ctermbg=234  ctermfg=246 cterm=Bold         guibg=#1c1c1c  guifg=#e4e4e4 gui=Bold
+hi NormalFloat  ctermbg=234  ctermfg=246 cterm=NONE         guibg=#000000  guifg=#e4e4e4
+hi MoreMsg      ctermbg=234  ctermfg=246 cterm=Bold         guibg=#1c1c1c  guifg=#e4e4e4 gui=Bold
 hi Visual       ctermbg=110  ctermfg=000 cterm=NONE         guibg=#87afd7  guifg=#000000 gui=NONE
 hi Comment      ctermbg=NONE ctermfg=242 cterm=NONE         guibg=NONE guifg=#6c6c6c gui=NONE
 hi Constant     ctermbg=NONE ctermfg=110 cterm=NONE         guibg=NONE guifg=#87afd7 gui=NONE
@@ -64,6 +64,9 @@ hi FoldColumn   ctermbg=NONE ctermfg=246 cterm=NONE         guibg=NONE guifg=#94
 hi SignColumn   ctermbg=NONE ctermfg=NONE cterm=NONE        guibg=NONE guifg=NONE gui=NONE
 hi IncSearch    ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
 hi Search       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
+hi IlluminatedWordText       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
+hi IlluminatedWordRead       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
+hi IlluminatedWordWrite       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
 hi LineNr       ctermbg=NONE ctermfg=242 cterm=NONE         guibg=NONE guifg=#6c6c6c gui=NONE
 hi CursorLineNr ctermbg=NONE ctermfg=242 cterm=Bold         guibg=NONE guifg=#6c6c6c gui=Bold
 hi MatchParen   ctermbg=235  ctermfg=246 cterm=NONE         guibg=#262626  guifg=#949494 gui=NONE
