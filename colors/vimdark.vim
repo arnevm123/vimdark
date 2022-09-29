@@ -67,8 +67,9 @@ hi Search       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg
 hi IlluminatedWordText       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
 hi IlluminatedWordRead       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
 hi IlluminatedWordWrite       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
+hi Colorcolumn       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
 hi LineNr       ctermbg=NONE ctermfg=242 cterm=NONE         guibg=NONE guifg=#6c6c6c gui=NONE
-hi CursorLineNr ctermbg=NONE ctermfg=242 cterm=Bold         guibg=NONE guifg=#6c6c6c gui=Bold
+hi CursorLineNr ctermbg=NONE ctermfg=242 cterm=Bold         guibg=NONE guifg=#ffffff gui=Bold
 hi MatchParen   ctermbg=235  ctermfg=246 cterm=NONE         guibg=#262626  guifg=#949494 gui=NONE
 hi Pmenu        ctermbg=235  ctermfg=254 cterm=NONE         guibg=#262626  guifg=#e4e4e4 gui=NONE
 hi PmenuSel     ctermbg=110  ctermfg=235 cterm=Bold         guibg=#87afd7  guifg=#262626 gui=Bold
