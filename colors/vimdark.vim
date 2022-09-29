@@ -11,7 +11,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'vimdark123'
+let g:colors_name = 'vimdark'
 
 " alpha:          000000 None
 " black:          #1c1c1c 234
