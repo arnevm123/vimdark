@@ -64,10 +64,6 @@ hi FoldColumn   ctermbg=NONE ctermfg=246 cterm=NONE         guibg=NONE guifg=#94
 hi SignColumn   ctermbg=NONE ctermfg=NONE cterm=NONE        guibg=NONE guifg=NONE gui=NONE
 hi IncSearch    ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
 hi Search       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
-hi IlluminatedWordText       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
-hi IlluminatedWordRead       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
-hi IlluminatedWordWrite       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
-hi Colorcolumn       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
 hi LineNr       ctermbg=NONE ctermfg=242 cterm=NONE         guibg=NONE guifg=#6c6c6c gui=NONE
 hi CursorLineNr ctermbg=NONE ctermfg=242 cterm=Bold         guibg=NONE guifg=#ffffff gui=Bold
 hi MatchParen   ctermbg=235  ctermfg=246 cterm=NONE         guibg=#262626  guifg=#949494 gui=NONE
@@ -169,3 +165,8 @@ hi LTExpandedGuide          guifg=NONE    guibg=NONE
 hi LTCollapsedGuide         guifg=NONE    guibg=NONE
 hi LTSelectFiletree         ctermbg=131  ctermfg=246 cterm=NONE guibg=#af5f5f guifg=#e4e4e4 gui=NONE
 hi def link LTCurrentFileFiletree Visual
+" extra
+hi IlluminatedWordText       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
+hi IlluminatedWordRead       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
+hi IlluminatedWordWrite       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
+hi Colorcolumn       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#949494  guifg=#ffffff gui=Bold
